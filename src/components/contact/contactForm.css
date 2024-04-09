@@ -1,0 +1,57 @@
+@import "../../utils/colors.css";
+
+.contact-container {
+  margin: 0 auto;
+}
+
+.contact-form-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 800px;
+  margin: 1.5rem auto;
+  row-gap: 1.5rem;
+}
+
+.contact-container .input-wrapper {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 1.5rem;
+}
+
+.contact-container input {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.contact-container .submit-warning {
+  color: red;
+}
+
+.contact-container .input-border-error {
+  border: 2px solid red;
+}
+
+.contact-container .btn-submit {
+  background: var(--red);
+  color: white;
+  font-size: 18px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input:focus {
+  border: none;
+}

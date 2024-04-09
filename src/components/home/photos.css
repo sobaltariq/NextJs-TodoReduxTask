@@ -1,0 +1,23 @@
+.photos-container {
+  margin: 0 auto;
+}
+.my-photo-card {
+  padding: 2rem;
+  background-color: var(--white);
+  margin: 1rem auto;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.photo-meta {
+  margin-bottom: 1rem;
+}
+.my-photo-card > img {
+  max-width: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.my-single-image {
+  border-radius: 5px;
+}

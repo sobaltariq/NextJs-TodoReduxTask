@@ -1,0 +1,80 @@
+@import "../utils/colors.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main.main-container {
+  width: 100%;
+}
+main.main-container > div.box-container {
+  max-width: 1440px;
+  width: 100%;
+  padding: 1rem 1.5rem;
+  background: var(--main-background);
+  margin: 0 auto;
+}
+
+p,
+a,
+li {
+  font-size: 18px;
+  text-decoration: none;
+  list-style: none;
+  text-align: justify;
+}
+
+h1 {
+  font-size: 24px;
+}
+h2 {
+  font-size: 22px;
+}
+h3 {
+  font-size: 20px;
+}
+h4 {
+  font-size: 18px;
+}
+
+.main-top-container {
+  margin-bottom: 2rem;
+}
+
+.btn-red {
+  background-color: var(--red);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  color: var(--white);
+  font-size: 20px;
+}
+.btn-blue {
+  background-color: var(--light-blue);
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  color: var(--white);
+  font-size: 20px;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {
+  border: none;
+}

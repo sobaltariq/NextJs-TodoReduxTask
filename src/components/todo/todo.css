@@ -1,0 +1,76 @@
+.todo-container {
+  margin: 0 auto;
+}
+.todo-list-container > .top-container {
+  margin-bottom: 2rem;
+}
+.todo-list-container {
+  display: flex;
+  column-gap: 2rem;
+  row-gap: 2rem;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.todo-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1 0 calc(50% - 20px);
+  padding: 2rem;
+  background-color: var(--white);
+  /* margin: 1rem auto; */
+  width: 100%;
+  border-radius: 15px;
+}
+.main-content {
+  margin: 1rem 0;
+}
+.main-content h1 {
+  margin-bottom: 0.5rem;
+}
+.todo-meta {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--dark-blue);
+  border-radius: 3px;
+  margin-bottom: 1rem;
+  padding: 5px;
+}
+.todo-meta p {
+  color: var(--white);
+}
+.todo-controls {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 750px) {
+  .todo-card {
+    flex-basis: calc(50% - 0px);
+    width: 100%;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+}
+
+/* ##### add update ##### */
+.add-update-container > .top-container {
+  margin-bottom: 2rem;
+}
+
+.add-todo-form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.add-todo-form > input,
+.add-todo-form > textarea {
+  line-height: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 24px;
+  width: 70%;
+  resize: none;
+}

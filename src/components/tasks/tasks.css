@@ -1,0 +1,53 @@
+.task-main-container {
+  margin: 0 auto;
+}
+.task-main-container > .top-container {
+  margin-bottom: 2rem;
+}
+.task-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.task-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1 0 calc(50% - 20px);
+  padding: 2rem;
+  background-color: var(--white);
+  width: 100%;
+  border-radius: 15px;
+}
+
+.main-content {
+  margin: 1rem 0;
+}
+.main-content h1 {
+  margin-bottom: 0.5rem;
+}
+
+.task-meta {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--dark-blue);
+  border-radius: 3px;
+  margin-bottom: 1rem;
+  padding: 5px;
+}
+.task-meta p {
+  color: var(--white);
+}
+
+.task-controls {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 750px) {
+  .todo-card {
+    flex-basis: calc(50% - 0px);
+    width: 100%;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+}

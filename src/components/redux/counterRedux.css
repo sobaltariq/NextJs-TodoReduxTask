@@ -1,0 +1,49 @@
+.redux-counter-container {
+  margin: 0 auto;
+}
+.redux-counter > .top-container {
+  margin-bottom: 2rem;
+}
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  margin: 0 auto;
+  width: 90%;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 2px solid var(--sky-blue);
+}
+
+.input-counter-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+.input-counter-wrapper > input {
+  line-height: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 24px;
+  resize: none;
+}
+.counter-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px dotted var(--yellow);
+}
+
+button {
+  width: 100%;
+}
+
+@media (max-width: 860px) {
+  .counter-wrapper input {
+    width: 100%;
+  }
+}

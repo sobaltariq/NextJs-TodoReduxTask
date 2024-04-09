@@ -1,0 +1,13 @@
+@import "../../utils/colors.css";
+
+footer {
+  width: 100%;
+}
+
+footer > div.outer-container {
+  max-width: 1440px;
+  width: 100%;
+  background: var(--main-background);
+  padding: 1rem 1.5rem;
+  margin: 0 auto;
+}
